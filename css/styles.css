@@ -61,9 +61,13 @@ img {
   text-align: center;
   max-width: 700px;
 }
-.container-features,
+.container-features {
+  padding-top: 94px;
+}
+
 .container-activity {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -131,7 +135,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color); 
+  color: var(--primary-text-color);
 }
 h1,
 h2,
@@ -195,6 +199,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   /* background-image: url(../images/Img.jpg);
   background: rgba(47, 48, 58, 0.4); */
 }
@@ -252,6 +257,7 @@ ul {
   color: var(--primary-text-color);
   text-align: left;
   margin-top: 10px;
+  width: 270px;
 }
 .list .list-features:not(:last-child) {
   margin-right: 30px;
@@ -269,8 +275,6 @@ ul {
 }
 .card-set {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -403,18 +407,18 @@ ul {
   border: none;
 }
 
-.logo-footer
-{margin-bottom:  20px;}
-
+.logo-footer {
+  margin-bottom: 20px;
+}
 
 .contacts-footer {
   display: inline-block;
-  margin-top:  9px;
+  margin-top: 9px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color); 
+  color: var(--primary-text-color);
   list-style: none;
-   text-decoration: none;  
+  text-decoration: none;
 }
